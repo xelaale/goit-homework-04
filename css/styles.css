@@ -144,6 +144,11 @@ img {
     text-align: center;
     align-items: center;
     width: 100%;
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(/images/background/peopleoffice.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-title {
