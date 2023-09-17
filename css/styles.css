@@ -204,7 +204,22 @@ img {
     overflow: hidden;
 }
 
-.hero-section,
+/* Adventages section */
+.advantages-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+
+
+
+.advantages-section,
 .team-section,
 .portfolio {
     padding: 120px 0;
