@@ -246,14 +246,10 @@ img {
     margin-bottom: 8px;
 }
 
-
-
-
 .advantages-section,
 .team-section,
 .portfolio {
     padding: 120px 0;
-
 }
 
 .hero-list {
@@ -282,7 +278,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
 
 /* Section 2 */
@@ -517,3 +512,5 @@ img {
 .footer-icon {
     fill: #f4f4fd;
 }
+
+/* end */
