@@ -495,12 +495,9 @@ img {
 .footer-social-item {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
 }
 
-.footer-social-item:first-child {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .footer-social-link {
     width: 100%;
@@ -510,7 +507,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:hover,
