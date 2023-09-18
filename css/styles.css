@@ -153,7 +153,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-contact:hover {
@@ -320,9 +320,7 @@ img {
     width: 40px;
     height: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .frame-icon {
@@ -352,6 +350,9 @@ img {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
 
@@ -405,6 +406,10 @@ img {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.portfolio-links:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-box {
     position: relative;
     overflow: hidden;
@@ -412,7 +417,7 @@ img {
 
 .overley {
     background-color: #4D5AE5;
-    color: #FFF;
+    color: #f4f4fd;
     font-family: Roboto;
     font-size: 16px;
     line-height: 24px;
@@ -498,7 +503,7 @@ img {
 .footer-social-item {
     width: 40px;
     height: 40px;
-
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
