@@ -12,6 +12,9 @@
 body {
     background: #FFF;
     color: #434455;
+    /* /* margin: 0 auto; */
+    max-width: 1440px;
+
 }
 
 a {
@@ -49,6 +52,7 @@ img {
     border-bottom: 1px solid rgba(231, 233, 252, 1);
     padding: 24px 0;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    /* max-width: 1440px; */
 }
 
 .container {
@@ -172,7 +176,7 @@ img {
     background: #2E2F42;
     padding: 188px 0;
     color: #fff;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
     align-items: center;
     /* width: 100%; */
@@ -182,7 +186,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1440px;
-    margin: 0 auto
+
 }
 
 .hero-title {
@@ -256,6 +260,7 @@ img {
 .team-section,
 .portfolio {
     padding: 120px 0;
+    /* max-width: 1440px; */
 }
 
 .hero-list {
@@ -297,7 +302,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
-    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
 }
 
 
@@ -315,19 +320,19 @@ img {
 .team-icon:hover,
 .team-icon:focus {
     background-color: #404bbf;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
 }
 
 .link-team-icon {
     width: 40px;
     height: 40px;
-    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
 
 }
 
 .frame-icon {
     fill: #F4F4FD;
-    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
 }
 
 
@@ -459,6 +464,7 @@ img {
 .footer-section {
     background: #2E2F42;
     padding: 100px 0;
+    /* max-width: 1440px; */
 }
 
 .container-footer {
@@ -506,7 +512,7 @@ img {
 .footer-social-item {
     width: 40px;
     height: 40px;
-    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
 }
 
 
@@ -524,11 +530,9 @@ img {
 .footer-social-link:hover,
 .footer-social-link:focus {
     background-color: #31d0aa;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
 }
 
 .footer-icon {
     fill: #f4f4fd;
 }
-
-/* end */
